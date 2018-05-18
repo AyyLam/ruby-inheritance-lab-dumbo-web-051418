@@ -1,3 +1,9 @@
 class Student < User
-  def new 
+  
+  attr_accessor :knowledge
+  
+  def initialize 
+    @knowledge
+  
+  end 
 end
